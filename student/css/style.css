@@ -1,0 +1,147 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.85;
+	letter-spacing: 0.6px;
+}
+.error{
+	color: red;
+}
+h2 {
+	letter-spacing: 4px;
+	background: #2C4897;
+	color: #FFFFFF;
+	text-align: center;
+}
+img {
+	max-width: 100%;
+}
+
+.main_form {
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1400px;
+	display: flex;
+}
+.left_content {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.left_content img{
+	width: 40%;
+	margin: 1em auto;
+}
+.left_content h2 {
+	text-align: center;
+	background: none;
+	color: #000000;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	margin-top: 0.5em;
+	background: #F2F2F2;
+	border-radius: 8px;
+	padding: 0.8em 0;
+	justify-content: center;
+	align-items: center;
+}
+label,input,select,.error {
+	width: 60%;
+	margin: 0 auto;
+}
+label {
+	font-weight: 600;
+	/*font-size: 1.15em;*/
+}
+select{
+	padding: 0.4em;
+	font-size: 0.9em;
+	border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input {
+	font-size: 0.9em;
+	padding: 0.25em 0.5em;
+	border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type=submit]{
+	margin: 1em auto;
+	padding: 0.5em 0;
+	font-weight: bold;
+	background: #432774;
+	color: #FFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 768px) {
+	*{
+		line-height: 2;
+	}
+	body {
+	  font-size: 13px;
+	}
+	.main_form {
+		width: 90%;
+		display: block;
+	}
+	.left_content {
+		width: 100%;
+		/*display: none;*/
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+	.left_content img{
+		width: 25%;
+		/*margin: 0.5em auto;*/
+	}
+	.left_content h2 {
+		text-align: center;
+		letter-spacing: 2px;
+		font-size: 1.3em;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 1em;
+		background: #F2F2F2;
+		border-radius: 8px;
+		padding: 1em 0;
+	}
+	label,input,select,.error {
+		width: 85%;
+		margin: 0 auto;
+	}
+	select{
+		font-size: 0.75;
+	}
+	input:focus {
+	  border: 1px solid #0000;
+	}
+}
+
+
+
+

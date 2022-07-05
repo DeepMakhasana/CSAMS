@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	line-height: 1.85;
+	letter-spacing: 0.6px;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header {
+	background: #2C4897;
+	color: #FFFFFF;
+	padding: .5em 0;
+}
+h2 {
+	letter-spacing: 4px;
+}
+.attendance h2 {
+	letter-spacing: 4px;
+	text-align: center;
+	margin-top: 0.5em;
+}
+.content > div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.content > div p{
+	padding: 0 1em 0 .5em;
+	letter-spacing: 2px;
+	font-weight: 700;
+}
+.content > div a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.content > div .btn {
+	border-radius: 4px;
+	border: 1px solid #FFFF;
+	padding: 0 1em;
+}
+
+main{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1400px;
+}
+
+.class a{
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 0.5em 1.5em;
+	border-radius: 4px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+.class a:nth-child(1) {
+	margin-right: 1em;
+}
+.class{
+	margin: 1.2em 0;
+	text-align: center;
+}
+
+.classes {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F2F2F2;
+	padding: 1em 1em;
+	margin: 1em 0;
+	border: 1px solid #c9c9c9;
+	border-left: 3px solid blue;
+}
+.attendStudent {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #F2F2F2;
+	padding: .2em 1em;
+	margin: 1em 0;
+	border: 1px solid #c9c9c9;
+}
+.classes p {
+	letter-spacing: 2px;
+}
+
+.attendStudent p {
+	padding-left: 1.4em;
+}
+
+/*export btn*/
+.export {
+	display: flex;
+	justify-content: center;
+}
+.export a {
+	background-color: #1D6F42;
+    color: #FFFF;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+
+/* update details */
+h3 {
+	letter-spacing: 3px;
+	text-align: center;
+	margin: .7em 0;
+}
+
+
+
+
+
+/* Class Create Page style */
+form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 0.5em;
+	background: #F2F2F2;
+	border-radius: 8px;
+	padding: 1em 0;
+	justify-content: center;
+	align-items: center;
+}
+form h2 {
+	margin-bottom: .6em;
+}
+label,input,select,.time {
+	width: 50%;
+	margin: 0 auto;
+}
+form .flex {
+	width: 50%;
+}
+.flex input[name=term],
+.flex input[name=div],
+form .flex div label {
+	width: 98%;
+}
+form .flex div {
+	display: inline;
+	width: 50%;
+}
+
+label {
+	font-weight: 600;
+	/*font-size: 1.15em;*/
+}
+select{
+	padding: 0.4em;
+	font-size: 0.9em;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+input {
+	font-size: 0.9em;
+	padding: 0.25em 0.5em;
+	border: 1px solid #ccc;
+  	border-radius: 4px;
+}
+.time {
+	display: flex;
+}
+.time span {
+	padding: 0 1em;
+}
+input[type=submit]{
+	margin: 1em auto;
+	padding: 0.5em 0;
+	font-weight: bold;
+	background: #432774;
+	color: #FFFF;
+	border: 2px solid #FFFFFF;
+	border-radius: 8px;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  	-webkit-appearance: none;
+}
+/* Firefox */
+input[type=number] {
+  	-moz-appearance: textfield;
+}
+
+
+
+/* Student Recodes .............. */
+#recodes {
+	margin-top: 1em;
+}
+#table-data {
+	background: #F2F2F2;
+	overflow-x: scroll;
+	border: 2px solid #545454;
+	height: 70vh;
+}
+.center {
+	text-align: center;
+}
+.margin {
+	margin: .6em 0;
+}
+
+.fetch-data {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 1em;
+}
+
+
+table {
+	margin: 0 auto;
+	text-align: center;
+}
+thead th {
+	padding: .5em;
+ 	position: sticky;
+	top: 0;
+	background: #bdbdbd;
+}
+tbody td {
+	padding: 0 .5em;
+	
+}
+tr:nth-child(even){
+	background-color: #FFFFFF
+}
+
+
+.export_data {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin: 1em 0;
+}
+
+.export_data a {
+	text-decoration: none;
+	color: white;
+	background: green;
+	padding: .2em 1em;
+}
+
+@media only screen and (max-width: 768px) {
+	*{
+		line-height: 2;
+	}
+	body {
+	  font-size: 14px;
+	}
+	.classes {
+		justify-content: flex-start;
+		align-items: start;
+		flex-direction: column;
+	}
+	.none {
+		display: none;
+	}
+	.content > div .btn {
+		border: none;
+	}
+	.class a:nth-child(1) {
+		margin-bottom: 1em;
+	}
+	.class {
+		display: flex;
+		flex-direction: column;
+	}
+	label,input,select,.time {
+		width: 90%;
+		margin: 0 auto;
+	}
+	form .flex {
+		width: 90%;
+	}
+	form .flex div {
+		display: inline;
+		width: 90%;
+	}
+	h2 {
+		letter-spacing: 1px;
+	}
+}
+
+@media only screen and (max-width: 910px) {
+	.fetch-data {
+		justify-content: flex-start;
+		align-items: start;
+		flex-direction: column;
+	}
+}
