@@ -1,7 +1,5 @@
-# CSAMS
-
 # College students attendance Management system
-[Live Link](http://deepmakhasana.great-site.net/)
+[🔗 Live Link](http://deepmakhasana.great-site.net/)
 - Easily Get Student Daily Attendance
 - Solve the complex manual attendance system
 - Attendance System operating easy and helpfully for Faculty
